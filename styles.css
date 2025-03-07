@@ -1,0 +1,126 @@
+
+body {
+    background-color: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    position: relative;
+}
+.conatiner {
+    width: 1200px;
+    max-width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+h1{
+    margin-top: 30px;
+}
+header {
+    position: sticky;
+    top: 0;
+    height: 110px;
+    top: 20px;
+    left: 10px;
+    z-index: 1000;
+    padding: 15px 20px;
+}
+/*nav {
+    float: right;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    right: 20px;
+}
+*/
+nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    overflow: hidden; 
+    /*clear: both;*/
+}
+
+nav ul li {
+    float: right; 
+    margin-right: 15px; 
+}
+
+nav ul li a {
+    display: block; 
+    text-decoration: none;
+    color: #000;
+    padding: 0px 10px 15px;
+    position: relative;
+    z-index: 50;
+}
+h1, h2 {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 20px 0px 10px 0px;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+
+}
+.hero {
+    background-color:  #FFCF83;
+}
+div.clear {
+    height: 50px;
+    width: 100%;
+    clear: both;
+}
+a {
+    color:  #b3679b;
+}
+li {
+    margin: 20x;
+}
+footer {
+    background-color: #D9D9D9;
+    text-align: center;
+}
+/*testimonials*/
+.testimonials {
+    background-color: #222e50;
+}
+.testimonial-block {
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding-left: 50px;
+}
+.testimonials h2 {
+    color: #F2F2F2;
+}
+/*features*/
+.feature-block {
+    width: 325px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding-left: 50px;
+}
+.testimonial-block p {
+    background-color: white;
+}
+/*team*/
+.team-block {
+    width: 210px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding-left: 50px;
+}
+
